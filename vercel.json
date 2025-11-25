@@ -1,21 +1,8 @@
 {
-  "crons": [
-    {
-      "path": "/api/cron",
-      "schedule": "*/10 * * * *"
-    }
-  ],
   "functions": {
     "api/cron.py": {
       "memory": 1024,
       "maxDuration": 60
     }
-  },
-  "env": {
-    "GROQ_API_KEY": "@groq_api_key",
-    "INSTAGRAM_USERNAME": "@instagram_username",
-    "INSTAGRAM_PASSWORD": "@instagram_password",
-    "FACEBOOK_PAGE_ACCESS_TOKEN": "@facebook_page_access_token",
-    "FACEBOOK_PAGE_ID": "@facebook_page_id"
   }
 }
