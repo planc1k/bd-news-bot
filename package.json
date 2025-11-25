@@ -1,0 +1,20 @@
+{
+  "name": "bd-news-bot",
+  "version": "1.0.0",
+  "description": "Automated Bangladeshi news aggregator with AI-powered social media posting",
+  "scripts": {
+    "test": "python test_setup.py",
+    "start": "python main.py"
+  },
+  "keywords": [
+    "news",
+    "automation",
+    "bangladesh",
+    "social-media",
+    "instagram",
+    "facebook",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT"
+}
