@@ -154,3 +154,4 @@ POSTED_STORIES_FILE = 'posted_stories.json'
 
 # Directory to save generated images
 OUTPUT_DIR = 'generated_posts'
+# Deployed on Vercel
