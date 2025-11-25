@@ -1,8 +1,9 @@
+cat > vercel.json << 'EOF'
 {
   "functions": {
-    "api/cron.py": {
-      "memory": 1024,
-      "maxDuration": 60
+    "api/*.py": {
+      "runtime": "python3.9"
     }
   }
 }
+EOF
